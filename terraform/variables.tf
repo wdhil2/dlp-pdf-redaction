@@ -14,7 +14,7 @@
 
 variable "project_id" {
   type        = string
-  description = "Project ID"
+  description = "doug-hill-test1"
 }
 variable "region" {
   type        = string
