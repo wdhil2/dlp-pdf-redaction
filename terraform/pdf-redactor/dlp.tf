@@ -13,7 +13,7 @@
 # limitations under the License.
 
 resource "google_data_loss_prevention_inspect_template" "dlp_pdf_template" {
-  parent       = "projects/${var.project_id}/locations/global"
+  parent       = "projects/${var.project_id}/locations/us-central1-c"
   description  = "PDF Redaction Inspect Template"
   display_name = "pdf_redaction_dlp_template"
 
